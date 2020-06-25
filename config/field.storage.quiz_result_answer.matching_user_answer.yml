@@ -1,0 +1,26 @@
+uuid: 01122470-a378-41d8-b34f-3fa56eec6753
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - quiz_matching
+  module:
+    - entity_reference_revisions
+    - paragraphs
+    - quiz
+_core:
+  default_config_hash: S0_3gSL7biDmwPQwcB1n2KloV59gGmLp0zAaHFCr1lA
+id: quiz_result_answer.matching_user_answer
+field_name: matching_user_answer
+entity_type: quiz_result_answer
+type: entity_reference_revisions
+settings:
+  target_type: paragraph
+module: entity_reference_revisions
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

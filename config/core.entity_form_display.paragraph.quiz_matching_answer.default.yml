@@ -1,0 +1,47 @@
+uuid: 5f16c135-1914-480a-9c6e-ecf55df35f03
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.quiz_matching_answer.matching_user_answer
+    - field.field.paragraph.quiz_matching_answer.matching_user_question
+    - paragraphs.paragraphs_type.quiz_matching_answer
+  enforced:
+    module:
+      - quiz_matching
+  module:
+    - paragraphs
+_core:
+  default_config_hash: IqCtHE6FC3tYqTFot6cXGJJsR2t4Vkfdjcwr3Uz_0xk
+id: paragraph.quiz_matching_answer.default
+targetEntityType: paragraph
+bundle: quiz_matching_answer
+mode: default
+content:
+  matching_user_answer:
+    type: entity_reference_paragraphs
+    weight: 1
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+  matching_user_question:
+    type: entity_reference_paragraphs
+    weight: 0
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+hidden:
+  created: true
+  status: true

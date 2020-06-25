@@ -1,0 +1,28 @@
+uuid: eea28fcc-08f9-4456-b561-d0ed48dfb972
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.quiz_result_answer.matching_user_answer
+    - quiz.result.answer.type.matching
+  enforced:
+    module:
+      - quiz_matching
+  module:
+    - entity_reference_revisions
+_core:
+  default_config_hash: o9c8DR8wk_Zc-tgi2Fwt87vLqiaN8ETDob3_E7pHF4o
+id: quiz_result_answer.matching.matching_user_answer
+field_name: matching_user_answer
+entity_type: quiz_result_answer
+bundle: matching
+label: matching_user_answer
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings: {  }
+field_type: entity_reference_revisions
