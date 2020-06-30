@@ -1,0 +1,11 @@
+uuid: 4b3cf045-4eec-4c7a-a036-6b9a060f3bc9
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - course_object_manual
+_core:
+  default_config_hash: GTRp2t7Noq_oLPK0Dj4ruTVeJwmHzX90rvB0nQhEog4
+id: manual
+label: 'Manual step'

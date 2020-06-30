@@ -1,0 +1,11 @@
+uuid: 71a4167e-3f4c-45ef-9119-e4d8ec434444
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - course_quiz
+_core:
+  default_config_hash: 42MfXq2JD7SdH1Dawe8PAaVD-zmjwLJjXCKNkzMoPMc
+id: quiz
+label: Quiz

@@ -1,0 +1,48 @@
+uuid: ecdbaaa0-d191-4d60-97d0-6945781499a2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.matching_user_question
+    - paragraphs.paragraphs_type.quiz_matching
+    - paragraphs.paragraphs_type.quiz_matching_answer
+  enforced:
+    module:
+      - quiz_matching
+  module:
+    - entity_reference_revisions
+_core:
+  default_config_hash: kwadPf4Hx2yxv5XsnaA1xMeaFNEcF6pLRVvRGJRy0SE
+id: paragraph.quiz_matching_answer.matching_user_question
+field_name: matching_user_question
+entity_type: paragraph
+bundle: quiz_matching_answer
+label: 'Matching user question'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      quiz_matching: quiz_matching
+    target_bundles_drag_drop:
+      quiz_matching:
+        enabled: true
+        weight: 6
+      multichoice:
+        weight: 7
+        enabled: false
+      quiz_matching_answer:
+        weight: 8
+        enabled: false
+      quiz_question_term_pool:
+        weight: 9
+        enabled: false
+      quiz_result_feedback:
+        weight: 10
+        enabled: false
+field_type: entity_reference_revisions
