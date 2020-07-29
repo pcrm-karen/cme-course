@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "081be65dfc5fb5adb91fe78e9272c6bf",
+    "content-hash": "0212093658bdd7afbc9d1961de406d84",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1957,22 +1957,17 @@
         },
         {
             "name": "drupal/course",
-            "version": "3.0.0-alpha1",
+            "version": "dev-3.x",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/course.git",
-                "reference": "3.0.0-alpha1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/course-3.0.0-alpha1.zip",
-                "reference": "3.0.0-alpha1",
-                "shasum": "879a1faa49823a3909948306d8324f43f52a8e1b"
+                "reference": "f12f9b0cc8d88864a4b9660a5b1b6a31cb02147d"
             },
             "require": {
                 "drupal/core": "^8",
+                "drupal/course": "*",
                 "drupal/entity": "*",
-                "drupal/inline_entity_form": "*",
+                "drupal/views_bulk_edit": "*",
                 "drupal/views_bulk_operations": "*"
             },
             "require-dev": {
@@ -1980,19 +1975,26 @@
                 "drupal/certificate": "*",
                 "drupal/content_access": "*",
                 "drupal/course_content": "*",
+                "drupal/inline_entity_form": "*",
                 "drupal/poll": "*",
                 "drupal/quiz": "*",
                 "drupal/rules": "*",
+                "drupal/uc_cart": "*",
+                "drupal/uc_order": "*",
+                "drupal/uc_product": "*",
                 "drupal/webform": "*"
             },
             "type": "drupal-module",
             "extra": {
+                "branch-alias": {
+                    "dev-3.x": "3.x-dev"
+                },
                 "drupal": {
-                    "version": "3.0.0-alpha1",
-                    "datestamp": "1585850960",
+                    "version": "3.x-dev",
+                    "datestamp": "1593111635",
                     "security-coverage": {
                         "status": "not-covered",
-                        "message": "Alpha releases are not covered by Drupal security advisories."
+                        "message": "Dev releases are not covered by Drupal security advisories."
                     }
                 }
             },
@@ -2020,7 +2022,8 @@
                 "source": "http://git.drupal.org/project/course.git",
                 "error": "Invalid dependency: \"node_access_book\" is an unknown drupal 8 package name",
                 "issues": "https://www.drupal.org/project/issues/course"
-            }
+            },
+            "time": "2020-07-02T20:15:52+00:00"
         },
         {
             "name": "drupal/csv_serialization",
@@ -2247,89 +2250,6 @@
             "homepage": "https://www.drupal.org/project/entity_reference_revisions",
             "support": {
                 "source": "https://git.drupalcode.org/project/entity_reference_revisions"
-            }
-        },
-        {
-            "name": "drupal/inline_entity_form",
-            "version": "1.0.0-rc7",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/inline_entity_form.git",
-                "reference": "8.x-1.0-rc7"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/inline_entity_form-8.x-1.0-rc7.zip",
-                "reference": "8.x-1.0-rc7",
-                "shasum": "a11e59a8f3632728165170e9337cec9bc8eab870"
-            },
-            "require": {
-                "drupal/core": "^8.7.7 || ^9"
-            },
-            "require-dev": {
-                "drupal/entity_reference_revisions": "^1.0"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "drupal": {
-                    "version": "8.x-1.0-rc7",
-                    "datestamp": "1595545223",
-                    "security-coverage": {
-                        "status": "not-covered",
-                        "message": "RC releases are not covered by Drupal security advisories."
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "bojanz",
-                    "homepage": "https://www.drupal.org/user/86106"
-                },
-                {
-                    "name": "dawehner",
-                    "homepage": "https://www.drupal.org/user/99340"
-                },
-                {
-                    "name": "geek-merlin",
-                    "homepage": "https://www.drupal.org/user/229048"
-                },
-                {
-                    "name": "joachim",
-                    "homepage": "https://www.drupal.org/user/107701"
-                },
-                {
-                    "name": "jsacksick",
-                    "homepage": "https://www.drupal.org/user/972218"
-                },
-                {
-                    "name": "kaythay",
-                    "homepage": "https://www.drupal.org/user/2182186"
-                },
-                {
-                    "name": "oknate",
-                    "homepage": "https://www.drupal.org/user/471638"
-                },
-                {
-                    "name": "rszrama",
-                    "homepage": "https://www.drupal.org/user/49344"
-                },
-                {
-                    "name": "slashrsm",
-                    "homepage": "https://www.drupal.org/user/744628"
-                },
-                {
-                    "name": "webflo",
-                    "homepage": "https://www.drupal.org/user/254778"
-                }
-            ],
-            "description": "Provides a widget for inline management (creation, modification, removal) of referenced entities.",
-            "homepage": "https://www.drupal.org/project/inline_entity_form",
-            "support": {
-                "source": "https://git.drupalcode.org/project/inline_entity_form"
             }
         },
         {
@@ -2664,6 +2584,56 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/typed_data",
                 "issues": "https://www.drupal.org/project/issues/typed_data"
+            }
+        },
+        {
+            "name": "drupal/views_bulk_edit",
+            "version": "2.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/views_bulk_edit.git",
+                "reference": "8.x-2.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/views_bulk_edit-8.x-2.4.zip",
+                "reference": "8.x-2.4",
+                "shasum": "039ebf9c6ae3cdd0555c7bfb97c629ebfee61ddb"
+            },
+            "require": {
+                "drupal/core": "^8",
+                "drupal/views_bulk_operations": "~1.0 | ~2.0 | ~3.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-2.4",
+                    "datestamp": "1570030085",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Marcin Grabias",
+                    "homepage": "https://www.drupal.org/u/graber"
+                },
+                {
+                    "name": "benjy",
+                    "homepage": "https://www.drupal.org/user/1852732"
+                }
+            ],
+            "description": "Allows bulk edition of entity field values.",
+            "homepage": "https://www.drupal.org/project/views_bulk_edit",
+            "support": {
+                "source": "https://git.drupalcode.org/project/views_bulk_edit",
+                "issues": "https://www.drupal.org/project/issues/views_bulk_edit?version=8.x"
             }
         },
         {
@@ -9299,7 +9269,7 @@
     "aliases": [],
     "minimum-stability": "alpha",
     "stability-flags": {
-        "drupal/course": 15,
+        "drupal/course": 20,
         "drupal/quiz": 15
     },
     "prefer-stable": true,
