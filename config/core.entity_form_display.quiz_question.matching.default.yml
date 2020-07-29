@@ -39,7 +39,7 @@ content:
     region: content
     weight: 32
     settings:
-      rows: '5'
+      rows: 5
       placeholder: ''
     third_party_settings: {  }
   quiz_matching:

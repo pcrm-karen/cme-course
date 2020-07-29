@@ -16,12 +16,6 @@ module:
   config_direct_save: 0
   contact: 0
   contextual: 0
-  course: 0
-  course_book: 0
-  course_content: 0
-  course_node: 0
-  course_object_manual: 0
-  course_quiz: 0
   datetime: 0
   datetime_range: 0
   dblog: 0
@@ -36,7 +30,6 @@ module:
   help: 0
   history: 0
   image: 0
-  inline_entity_form: 0
   link: 0
   menu_ui: 0
   module_filter: 0
