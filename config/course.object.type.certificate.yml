@@ -1,0 +1,11 @@
+uuid: e85e76e2-9b9a-49d1-aa97-5d3f70ec734f
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - course_certificate
+_core:
+  default_config_hash: tk9jOBCG3cmp3lHjcaGZhVnM6hYb2CVmtScWWbCtJpU
+id: certificate
+label: Certificate

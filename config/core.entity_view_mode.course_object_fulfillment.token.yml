@@ -1,0 +1,10 @@
+uuid: 58bdea74-4433-4c6d-a687-c65f0fc45b74
+langcode: en
+status: true
+dependencies:
+  module:
+    - course
+id: course_object_fulfillment.token
+label: Token
+targetEntityType: course_object_fulfillment
+cache: true

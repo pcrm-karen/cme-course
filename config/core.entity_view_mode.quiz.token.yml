@@ -1,0 +1,10 @@
+uuid: 8f21d352-8fea-4725-b7d8-9d0db7bfa95e
+langcode: en
+status: true
+dependencies:
+  module:
+    - quiz
+id: quiz.token
+label: Token
+targetEntityType: quiz
+cache: true

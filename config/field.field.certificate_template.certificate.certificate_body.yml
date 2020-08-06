@@ -1,0 +1,23 @@
+uuid: 16a1a893-89b5-42f6-9bde-dd5024c87c0c
+langcode: en
+status: true
+dependencies:
+  config:
+    - certificate.type.certificate
+    - field.storage.certificate_template.certificate_body
+  module:
+    - text
+_core:
+  default_config_hash: Ok36IsRP11DgtDb1mPiqBnPs_waCmTHbykgjvQ8SUu0
+id: certificate_template.certificate.certificate_body
+field_name: certificate_body
+entity_type: certificate_template
+bundle: certificate
+label: Certificate
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long
