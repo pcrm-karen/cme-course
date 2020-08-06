@@ -1,0 +1,10 @@
+uuid: ad262a5b-f855-4715-a348-14ec3fc9eb4e
+langcode: en
+status: true
+dependencies:
+  module:
+    - course
+id: course_enrollment.token
+label: Token
+targetEntityType: course_enrollment
+cache: true

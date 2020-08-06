@@ -1,0 +1,10 @@
+uuid: afccf624-05a9-4808-8010-464e0ebe903c
+langcode: en
+status: true
+dependencies:
+  module:
+    - quiz
+id: quiz_question_relationship.token
+label: Token
+targetEntityType: quiz_question_relationship
+cache: true

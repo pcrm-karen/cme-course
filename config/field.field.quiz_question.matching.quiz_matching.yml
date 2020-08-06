@@ -30,17 +30,17 @@ settings:
     target_bundles:
       quiz_matching: quiz_matching
     target_bundles_drag_drop:
-      quiz_matching:
-        enabled: true
-        weight: 4
       multichoice:
         weight: 5
         enabled: false
-      quiz_question_term_pool:
-        weight: 6
-        enabled: false
+      quiz_matching:
+        enabled: true
+        weight: 4
       quiz_matching_answer:
         weight: 8
+        enabled: false
+      quiz_question_term_pool:
+        weight: 6
         enabled: false
       quiz_result_feedback:
         weight: 8

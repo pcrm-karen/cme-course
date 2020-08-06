@@ -9,6 +9,7 @@ module:
   block_content: 0
   book: 0
   breakpoint: 0
+  certificate: 0
   ckeditor: 0
   color: 0
   comment: 0
@@ -18,6 +19,7 @@ module:
   contextual: 0
   course: 0
   course_book: 0
+  course_certificate: 0
   course_content: 0
   course_node: 0
   course_object_manual: 0
@@ -33,6 +35,8 @@ module:
   field_ui: 0
   file: 0
   filter: 0
+  h5p: 0
+  h5peditor: 0
   help: 0
   history: 0
   image: 0
@@ -45,6 +49,9 @@ module:
   page_cache: 0
   path: 0
   path_alias: 0
+  pdf_api: 0
+  printable: 0
+  printable_pdf: 0
   quickedit: 0
   quiz: 0
   quiz_directions: 0
@@ -61,6 +68,7 @@ module:
   system: 0
   taxonomy: 0
   text: 0
+  token: 0
   toolbar: 0
   tour: 0
   typed_data: 0

@@ -1,0 +1,10 @@
+uuid: 6c504391-6e39-4cd4-961e-72cc13113ff2
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Gjn5x5yf7zxyY7adeeNxQeMfFG8hRm4dpkwaSoSvU0Q
+id: certificate
+type: null
+label: Certificate
+description: 'Default certificate type with a WYSIWYG field.'

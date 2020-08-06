@@ -1,0 +1,15 @@
+uuid: 4e8729a9-14b6-468b-846f-f2c57a921ac9
+langcode: en
+status: false
+dependencies:
+  enforced:
+    module:
+      - printable
+  module:
+    - node
+_core:
+  default_config_hash: ixCuR5U6Q6-4dIvMWUP6wWwkolzJaDQWuQrer5YJjT4
+id: node.printable
+label: printable
+targetEntityType: node
+cache: true

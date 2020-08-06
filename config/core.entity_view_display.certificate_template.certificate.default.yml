@@ -1,0 +1,24 @@
+uuid: b4fce3aa-0e06-48b0-94b6-2ddadb4c3d39
+langcode: en
+status: true
+dependencies:
+  config:
+    - certificate.type.certificate
+    - field.field.certificate_template.certificate.certificate_body
+  module:
+    - text
+_core:
+  default_config_hash: xscQ2ZZ9YMjTUgzAETpcRmRLCGlSDV37ZEEEYdrieFc
+id: certificate_template.certificate.default
+targetEntityType: certificate_template
+bundle: certificate
+mode: default
+content:
+  certificate_body:
+    type: text_default
+    weight: 0
+    region: content
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }
