@@ -1,4 +1,4 @@
-uuid: 59596065-80d9-48ef-a774-f8fd5f769653
+uuid: 526febff-5b8a-4fee-8a67-44608938c36f
 langcode: en
 status: true
 dependencies:
@@ -6,7 +6,7 @@ dependencies:
     - user
     - views_bulk_operations
 _core:
-  default_config_hash: toQaIYY-33cS20dsrwSuxONC5WIzKxEBomGlHRZCSCE
+  default_config_hash: u085b4xMB_pL8wFx1x0QywOrlKWnPUGro0Iq5sHaRAY
 id: course_enroll
 label: Enroll
 module: views
@@ -286,17 +286,17 @@ display:
         - url
         - url.query_args
       tags: {  }
-  page_1:
+  course:
     display_plugin: page
-    id: page_1
+    id: course
     display_title: Page
     position: 1
     display_options:
       display_extenders: {  }
-      path: course/%course/enrollments-add
+      path: course/%course/enrollments/search-add
       menu:
         type: tab
-        title: 'Add enrollment'
+        title: 'Search and enroll'
         description: ''
         expanded: false
         parent: ''

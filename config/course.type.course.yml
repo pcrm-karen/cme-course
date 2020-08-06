@@ -1,0 +1,11 @@
+uuid: 82c458de-68be-4df2-9423-ed71c0612c09
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - course
+_core:
+  default_config_hash: yhQjXSavZDlo2NURPfkGCMt0FhnrQrDMkXWqw7u153U
+id: course
+label: Course

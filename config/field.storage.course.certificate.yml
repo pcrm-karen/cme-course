@@ -1,0 +1,22 @@
+uuid: e882226d-134a-4019-8dba-b92a9fd304fb
+langcode: en
+status: true
+dependencies:
+  module:
+    - certificate
+    - course
+_core:
+  default_config_hash: CvMAhf44AmPTfRzUlmGBVTMAOgtWelyMlMPWSmWl5gI
+id: course.certificate
+field_name: certificate
+entity_type: course
+type: entity_reference
+settings:
+  target_type: certificate_mapping
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

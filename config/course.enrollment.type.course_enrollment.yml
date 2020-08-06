@@ -1,0 +1,11 @@
+uuid: 8a33af25-93dc-4f63-b5e4-d62fd5f8d450
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - course
+_core:
+  default_config_hash: 6OU8IyrWZEofbANcL_8mT_kQY1efdBdjwu1mDZsma2w
+id: course_enrollment
+label: 'Course enrollment'

@@ -1,0 +1,27 @@
+uuid: 975dbe0c-c16b-4137-a5e8-5d76623e3fd2
+langcode: en
+status: true
+dependencies:
+  config:
+    - course.type.course
+    - field.storage.course.certificate
+_core:
+  default_config_hash: 5u7_cq1Zq8jGW-JLRN8k6prsLrf3MbXZDdtH5sSPHRk
+id: course.course.certificate
+field_name: certificate
+entity_type: course
+bundle: course
+label: Certificate
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:certificate_mapping'
+  handler_settings:
+    target_bundles: null
+    sort:
+      field: _none
+    auto_create: false
+field_type: entity_reference

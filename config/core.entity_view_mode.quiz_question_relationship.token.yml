@@ -1,0 +1,10 @@
+uuid: 60daf91f-5aea-4531-b588-5b2afef3551e
+langcode: en
+status: true
+dependencies:
+  module:
+    - quiz
+id: quiz_question_relationship.token
+label: Token
+targetEntityType: quiz_question_relationship
+cache: true
