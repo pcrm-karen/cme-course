@@ -1,0 +1,19 @@
+uuid: 1589280b-dc78-44b2-93f8-2a35d2e1d88a
+langcode: en
+status: true
+dependencies:
+  module:
+    - h5p
+    - node
+id: node.field_interactive_video
+field_name: field_interactive_video
+entity_type: node
+type: h5p
+settings: {  }
+module: h5p
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,23 @@
+uuid: 5beea516-e4d4-41b3-9181-a7f866d135f2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_interactive_video
+    - node.type.page
+  module:
+    - h5p
+id: node.page.field_interactive_video
+field_name: field_interactive_video
+entity_type: node
+bundle: page
+label: 'Interactive Video'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    h5p_content_id: null
+default_value_callback: ''
+settings: {  }
+field_type: h5p
